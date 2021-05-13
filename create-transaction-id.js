@@ -1,1 +1,3 @@
-console.log("debug");
+function reloadWindowbyMe() {
+    window.location.reload();
+}
