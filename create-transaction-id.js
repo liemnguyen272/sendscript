@@ -1,6 +1,6 @@
 var TransactionBenny;
 // var d = "https://608934a68c8043001757e3d3.mockapi.io/en/v1/";
-var d = "192.168.1.133:3002/en/v1/lp";
+var d = "http://192.168.1.133:3002/en/v1/lp";
 
 !(function(l) {
 
