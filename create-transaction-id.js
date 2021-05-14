@@ -1,5 +1,6 @@
 var TransactionBenny;
-var d = "https://608934a68c8043001757e3d3.mockapi.io/en/v1/";
+// var d = "https://608934a68c8043001757e3d3.mockapi.io/en/v1/";
+var d = "192.168.1.133:3002/en/v1/lp";
 
 !(function(l) {
 
@@ -10,7 +11,7 @@ var d = "https://608934a68c8043001757e3d3.mockapi.io/en/v1/";
             var p = url.searchParams.get("timeline_id");
             if (!p) return;
         }
-        fetch(d + "lp?kpi=" + p)
+        fetch(d + "?kpi=" + p)
             .then((r) => r.json())
             .then((r) => {
                 if (typeof b === "function") {
